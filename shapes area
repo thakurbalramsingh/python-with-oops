@@ -1,0 +1,30 @@
+class Shape:
+    def area(self):
+        print("Area of shape")
+
+
+class Circle:
+    def area(self, radius):
+        return 3.14 * radius * radius
+
+
+class Rectangle:
+    def area(self, length, breadth):
+        return length * breadth
+
+
+class Triangle:
+    def area(self, length, breadth, height):
+        return 0.5 * breadth * height
+
+
+s = Shape()
+c = Circle()
+r = Rectangle()
+t = Triangle()
+s.area()
+
+print("Area of circle:", c.area(5))
+print("Area of rectangle:", r.area(10, 5))
+print("Area of triangle:", t.area(10, 6, 4))
+                            
