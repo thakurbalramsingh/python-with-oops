@@ -1,0 +1,28 @@
+class vehicle:
+    def branch(self):
+        print("Branch of Nagaram")
+
+    def model(self):
+        print("Fortuner top model")
+
+
+class car:
+    def audi(self):
+        print("Audi A6 top model")
+
+
+class bike:
+    def zx10r(self):
+        print("ZX10R model")
+
+
+v = vehicle()
+c = car()
+b = bike()
+
+v.branch()
+v.model()
+
+c.audi()
+
+b.zx10r()
