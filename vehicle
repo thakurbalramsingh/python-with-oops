@@ -1,0 +1,25 @@
+class vehicle:
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+    def display(self):
+        print(self.brand)
+        print(self.model)
+class car(vehicle):
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+    def display(self):
+        print(self.brand)
+        print(self.model)
+class bike(vehicle):
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+    def display(self):
+        print(self.brand)
+        print(self.model)
+c=car("toyato","innova")
+b=bike("yamaha","r15")
+c.display()
+b.display()
